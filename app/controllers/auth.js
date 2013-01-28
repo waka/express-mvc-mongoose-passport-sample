@@ -7,7 +7,7 @@
  * GET /
  */
 exports.login = function(req, res) {
-  res.render('login', {title: 'Collateral server'});
+  res.render('login', {title: 'Sample app'});
 };
 
 
