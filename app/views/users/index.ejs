@@ -1,0 +1,34 @@
+<% layout('../layouts/layout') -%>
+
+<div class="container">
+  <h2>Users</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Administrators</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for (var i = 0, len = users.length; i < len; i++) { -%>
+      <tr>
+        <td><%= i %></td>
+        <td>
+          <img src="<%= users[i].image %>" width="24" height="24" />
+          <%= users[i].name %>
+        </td>
+        <td>
+          <% if (users[i].admin === true) { -%>
+          Yes
+          <% } else { -%>
+          No
+          <% } %>
+        </td>
+        <td><%= users[i].email %></td>
+      </tr>
+      <% } %>
+    </tbody>
+  </table>
+</div>

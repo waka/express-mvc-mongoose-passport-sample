@@ -1,0 +1,27 @@
+{
+  "name": "express-mvc-mongoose-passport",
+  "description": "Sample template",
+  "version": "0.0.1",
+  "author": "Yoshimasa Wakahara <y.wakahara@gmail.com>",
+  "license": "MIT-License",
+  "scripts": {
+    "start": "NODE_PATH=lib node server.js"
+  },
+  "dependencies": {
+    "express": ">=3.0.x",
+    "ejs": "*",
+    "ejs-locals": "*",
+    "mongoose": "*",
+    "connect-mongo": "*",
+    "passport": "*",
+    "passport-github": "*",
+    "config": "*",
+    "winston": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "grunt": ">=0.4.x",
+    "grunt-contrib-watch": ">=0.2.x",
+    "grunt-contrib-compass": ">=0.1.x"
+  }
+}

@@ -1,0 +1,38 @@
+/**
+ * Application base scss.
+ */
+
+@import "twitter-bootstrap/bootstrap";
+
+
+body {
+  padding-top: 60px;
+}
+
+.label-unplaced {
+}
+
+.label-start {
+  background-color: #468847;
+}
+
+.label-stop {
+  background-color: #b94a48;
+}
+
+.dl-horizontal-wide {
+  font-size: 120%;
+
+  dt {
+    margin-bottom: 10px;
+  }
+  dd {
+    margin-bottom: 10px;
+  }
+}
+
+.btn-toolbar {
+  form {
+    display: inline;
+  }
+}
