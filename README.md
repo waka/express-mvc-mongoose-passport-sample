@@ -1,7 +1,7 @@
 # express-mvc-mongoose-passport-sample
 
-Express, Mongoose, Passportを使う場合のひな形  
-ログイン認証とユーザー一覧表示
+Express, Mongoose, Passportを使ったサンプル  
+ログイン認証とユーザー一覧表示ができる
 
 * MVCライクなプロジェクト構成
 * Passport, GitHub OAuthを使ったログイン認証
